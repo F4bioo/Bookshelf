@@ -1,9 +1,12 @@
+import io.gitlab.arturbosch.detekt.Detekt
+
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
 apply from: "$rootDir/plugins/android-build.gradle"
 apply from: "$rootDir/plugins/test-build.gradle"
+apply from: "$rootDir/config/detekt/detekt-build.gradle"
 
 android {
     namespace Config.applicationId
@@ -40,5 +43,14 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    tasks.withType(Detekt).configureEach { detekt ->
+        reports {
+            xml.required.set(false)
+            html.required.set(true)
+            txt.required.set(false)
+            sarif.required.set(false)
+            md.required.set(false)
+        }
     }
 }
