@@ -44,6 +44,11 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+        kotlinOptions {
+            freeCompilerArgs += "-opt-in=kotlin.RequiresOptIn"
+        }
+    }
     tasks.withType(Detekt).configureEach { detekt ->
         reports {
             xml.required.set(false)
