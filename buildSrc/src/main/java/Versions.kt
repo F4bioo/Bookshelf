@@ -20,6 +20,8 @@ object Versions {
     const val detekt_version = "1.22.0"
     const val jacoco_version = "0.8.6"
     const val swipeRefresh_version = "1.1.0"
+    const val pagingRuntime_version = "3.1.1"
+    const val room_version = "2.4.3"
     const val timber_version = "4.7.1"
     const val shimmer_version = "0.5.0"
     const val coil_version = "2.3.0"

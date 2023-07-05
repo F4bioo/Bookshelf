@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+apply from: "$rootDir/plugins/android-build.gradle"
+
+def keyApiPropertiesFile = rootProject.file("$rootDir/keyApi.properties")
+def keyApiProperties = new Properties()
+keyApiProperties.load(new FileInputStream(keyApiPropertiesFile))
+
+android {
+    namespace "${Config.applicationId}.libraries.arch"
+
+    defaultConfig {
+        buildConfigField "String", "API_KEY", keyApiProperties['API_KEY']
+        buildConfigField "String", "BASE_URL", '"https://www.googleapis.com/"'
+    }
+}
+
+dependencies {
+    // Libs
+    implementation(Libs.okhttpLoggingInterceptor)
+    implementation(Libs.retrofitConverterGson)
+    implementation(Libs.okhttp)
+    implementation(TestLibs.coroutinesTest)
+    implementation(TestLibs.junitTest)
+    implementation(TestLibs.mockWebserverTest)
+}
