@@ -13,4 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Bookshelf"
-include ':app'
+// Keep it in alphabetical order
+include ':app',
+        ':libraries:arch',
+        ':libraries:design'

@@ -54,3 +54,21 @@ android {
         }
     }
 }
+
+dependencies {
+    // Libs
+    debugImplementation(Libs.soLoader)
+    debugImplementation(Libs.flipper)
+    debugImplementation(Libs.flipperNetwork)
+    debugImplementation(Libs.leakcanary2)
+    debugImplementation(Libs.leakcanaryAndroid)
+    implementation(Libs.okhttpLoggingInterceptor)
+    implementation(Libs.shimmer)
+    implementation(Libs.roomRuntime)
+    implementation(Libs.roomKtx)
+    kapt(Libs.roomKapt)
+
+    // Modules
+    implementation project(Modules.design)
+    implementation project(Modules.arch)
+}
