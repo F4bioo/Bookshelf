@@ -8,7 +8,7 @@ object Versions {
     const val lifecycle_version = "2.5.1"
     const val fragment_version = "1.6.0-alpha04"
     const val gson_version = "2.9.0"
-    const val okhttp_version = "4.9.0"
+    const val okhttp_version = "4.11.0"
     const val retrofit_version = "2.9.0"
     const val coroutines_version = "1.6.4"
     const val annotation_version = "1.4.0"
