@@ -30,6 +30,12 @@ object Libs {
     const val retrofitConverterGson = "com.squareup.retrofit2:converter-gson:${Versions.retrofit_version}"
     const val retrofitRxJava2Adapter = "com.squareup.retrofit2:adapter-rxjava2:${Versions.retrofit_version}"
 
+    // Room
+    const val roomRxJava2 = "androidx.room:room-rxjava2:${Versions.room_version}"
+    const val roomRuntime = "androidx.room:room-runtime:${Versions.room_version}"
+    const val roomKapt = "androidx.room:room-compiler:${Versions.room_version}"
+    const val roomKtx = "androidx.room:room-ktx:${Versions.room_version}"
+
     // Images
     const val glide = "com.github.bumptech.glide:glide:${Versions.glide_version}"
     const val glideCompiler = "com.github.bumptech.glide:compiler:${Versions.glide_version}"

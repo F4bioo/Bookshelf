@@ -3,6 +3,7 @@ import io.gitlab.arturbosch.detekt.Detekt
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
 }
 apply from: "$rootDir/plugins/android-build.gradle"
 apply from: "$rootDir/plugins/test-build.gradle"
@@ -17,6 +18,8 @@ android {
     }
     defaultConfig {
         applicationId Config.applicationId
+
+        buildConfigField "String", "DB_NAME", '"book.db"'
     }
 
     buildTypes {
@@ -41,12 +44,9 @@ android {
                     "$rootDir/app/proguard-rules-staging.pro"
         }
     }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
-    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
         kotlinOptions {
-            freeCompilerArgs += "-opt-in=kotlin.RequiresOptIn"
+            jvmTarget = "1.8"
         }
     }
     tasks.withType(Detekt).configureEach { detekt ->
@@ -69,6 +69,7 @@ dependencies {
     debugImplementation(Libs.leakcanaryAndroid)
     implementation(Libs.okhttpLoggingInterceptor)
     implementation(Libs.shimmer)
+    implementation(Libs.roomRxJava2)
     implementation(Libs.roomRuntime)
     implementation(Libs.roomKtx)
     kapt(Libs.roomKapt)
