@@ -21,7 +21,7 @@ interface BookshelfDao {
     @Query("SELECT * FROM book")
     fun getBooks(): Flowable<List<BookEntity>>
 
-    @Query("SELECT * FROM book WHERE isFavorite = 1")
+    @Query("SELECT * FROM book WHERE isFavorite = 1 ORDER BY title ASC")
     fun getFavorites(): Flowable<List<BookEntity>>
 
     @Query("DELETE FROM book WHERE _id = :id")
