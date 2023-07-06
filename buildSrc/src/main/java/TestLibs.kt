@@ -30,4 +30,6 @@ object TestLibs {
     const val junitTest = "junit:junit:${Versions.junit_version}"
     const val arcCoreTest = "androidx.arch.core:core-testing:${Versions.coreTest_version}"
     const val turbineTest = "app.cash.turbine:turbine:${Versions.turbine_version}"
+    const val pagingCommonTest = "androidx.paging:paging-common:${Versions.pagingRuntime_version}"
+
 }

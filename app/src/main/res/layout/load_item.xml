@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flipper_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:measureAllChildren="false">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/ds_size_02" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/ds_size_04"
+        android:paddingTop="@dimen/ds_size_04">
+
+        <TextView
+            android:id="@+id/text_message"
+            style="@style/DsTextHighlightMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/common_load_failed" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_try_again"
+            style="@style/DsSecondaryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/common_try_again" />
+
+    </LinearLayout>
+
+</ViewFlipper>

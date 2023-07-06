@@ -69,6 +69,8 @@ dependencies {
     debugImplementation(Libs.leakcanaryAndroid)
     implementation(Libs.okhttpLoggingInterceptor)
     implementation(Libs.shimmer)
+    implementation(Libs.pagingRuntime)
+    implementation(Libs.pagingRxJava2)
     implementation(Libs.roomRxJava2)
     implementation(Libs.roomRuntime)
     implementation(Libs.roomKtx)
