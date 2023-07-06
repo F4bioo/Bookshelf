@@ -12,6 +12,8 @@ android {
     namespace "${Config.applicationId}.libraries.arch"
 
     defaultConfig {
+        buildConfigField "String", "DB_NAME", '"book.db"'
+
         buildConfigField "String", "API_KEY", keyApiProperties['API_KEY']
         buildConfigField "String", "BASE_URL", '"https://www.googleapis.com/"'
     }
