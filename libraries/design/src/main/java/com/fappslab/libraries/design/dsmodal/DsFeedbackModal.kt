@@ -3,31 +3,32 @@ package com.fappslab.libraries.design.dsmodal
 import android.content.DialogInterface
 import android.os.Bundle
 import android.view.View
+import android.view.ViewGroup
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
+import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.commit
 import com.fappslab.bookshelf.libraries.design.R
-import com.fappslab.bookshelf.libraries.design.databinding.LayoutDsmodalHostBinding
+import com.fappslab.bookshelf.libraries.design.databinding.DsFeedbackModalBinding
 import com.fappslab.libraries.arch.extension.isNotNull
+import com.fappslab.libraries.arch.extension.isNull
 import com.fappslab.libraries.arch.viewbinding.viewBinding
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
-class DsModalHost : BottomSheetDialogFragment(R.layout.layout_dsmodal_host) {
+class DsFeedbackModal : BottomSheetDialogFragment(R.layout.ds_feedback_modal) {
 
-    private val binding: LayoutDsmodalHostBinding by viewBinding()
+    private val binding: DsFeedbackModalBinding by viewBinding()
 
     private var primaryButtonConfig: DsButtonConfig? = null
     private var secondaryButtonConfig: DsButtonConfig? = null
     private var primaryButtonAction: (() -> Unit)? = null
     private var secondaryButtonAction: (() -> Unit)? = null
 
+    var customView: View? = null
     var closeButton: (() -> Unit)? = null
     var onDismiss: (() -> Unit)? = null
-    var setFragment: (() -> Fragment)? = null
     var shouldBlock: Boolean = false
 
     @DrawableRes
@@ -67,13 +68,14 @@ class DsModalHost : BottomSheetDialogFragment(R.layout.layout_dsmodal_host) {
         super.onViewCreated(view, savedInstanceState)
         primaryButtonConfig?.setupPrimaryButton()
         secondaryButtonConfig?.setupSecondaryButton()
+        setupButtonContainer()
         setupBehavior()
         setupDragLine()
         setupCloseButton()
-        setupChild()
         setupAvatarImage()
         setupTitle()
         setupMessage()
+        setupCustomView()
     }
 
     override fun onDismiss(dialog: DialogInterface) {
@@ -93,7 +95,7 @@ class DsModalHost : BottomSheetDialogFragment(R.layout.layout_dsmodal_host) {
     }
 
     private fun setupDragLine() {
-        binding.dragLine.isVisible = shouldBlock.not()
+        binding.dragLine.isInvisible = shouldBlock
     }
 
     private fun setupCloseButton() {
@@ -103,16 +105,17 @@ class DsModalHost : BottomSheetDialogFragment(R.layout.layout_dsmodal_host) {
         }
     }
 
-    private fun setupChild() {
-        setFragment?.let { fragment ->
-            childFragmentManager.commit { replace(binding.containerFragment.id, fragment()) }
-        }
-    }
-
     private fun setupAvatarImage() {
         binding.imageAvatar.run {
             imageRes?.let(::setImageResource)
             isVisible = imageRes.isNotNull()
+        }
+        if (imageRes.isNull()) {
+            binding.textTile.run {
+                val layoutParams = this.layoutParams as? ViewGroup.MarginLayoutParams
+                layoutParams?.topMargin = 0
+                this.layoutParams = layoutParams
+            }
         }
     }
 
@@ -130,6 +133,21 @@ class DsModalHost : BottomSheetDialogFragment(R.layout.layout_dsmodal_host) {
             messageText?.let { text = it }
             isVisible = shouldShow(pairData = messageRes to messageText)
         }
+    }
+
+    private fun setupCustomView() = binding.run {
+        customView?.let {
+            customContainer.addView(it)
+            customContainer.isVisible = true
+            scrollContainer.isVisible = false
+            barContainer.isVisible = false
+        }
+    }
+
+    private fun setupButtonContainer() {
+        binding.buttonContainer.isVisible =
+            primaryButtonConfig.isNotNull() &&
+                    secondaryButtonConfig.isNotNull()
     }
 
     private fun DsButtonConfig.setupPrimaryButton() {

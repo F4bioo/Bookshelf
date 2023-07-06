@@ -5,11 +5,11 @@ import androidx.lifecycle.LifecycleOwner
 import com.fappslab.libraries.arch.extension.isNotNull
 
 @Suppress("unused")
-fun LifecycleOwner.dsModalHost(
-    block: DsModalHost.() -> Unit
-): DsModalHost = DsModalHost().apply(block)
+fun LifecycleOwner.dsFeedbackModal(
+    block: DsFeedbackModal.() -> Unit
+): DsFeedbackModal = DsFeedbackModal().apply(block)
 
-fun DsModalHost.build(
+fun DsFeedbackModal.build(
     shouldShow: Boolean = true,
     manager: FragmentManager,
     tag: String
@@ -23,7 +23,7 @@ fun DsModalHost.build(
 private fun FragmentManager.hide(tag: String) {
     if (isShowing(tag)) {
         val dialog = findFragmentByTag(tag)
-        if (dialog is DsModalHost) dialog.dismissAllowingStateLoss()
+        if (dialog is DsFeedbackModal) dialog.dismissAllowingStateLoss()
     }
 }
 

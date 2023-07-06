@@ -57,4 +57,6 @@
     <dimen name="ds_radius_mi">8dp</dimen>
     <dimen name="ds_radius_ti">4dp</dimen>
 
+    <dimen name="ds_divider">1dp</dimen>
+
 </resources>

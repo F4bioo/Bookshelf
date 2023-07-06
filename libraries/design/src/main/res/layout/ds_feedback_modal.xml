@@ -1,43 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <View
-        android:id="@+id/drag_line"
-        android:layout_width="100dp"
-        android:layout_height="@dimen/ds_size_01"
-        android:background="#7F868686"
-        app:layout_constraintBottom_toBottomOf="@id/button_close"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/button_close"
-        app:layout_constraintVertical_bias="0" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <ImageButton
-        android:id="@+id/button_close"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/ds_size_02"
-        android:background="?attr/selectableItemBackgroundBorderless"
-        android:contentDescription="@string/common_close"
-        android:padding="@dimen/ds_size_02"
-        android:src="@drawable/ds_ic_cancel"
-        app:layout_constraintEnd_toEndOf="@id/container_fragment"
-        app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/ds_gray_light" />
+        <View
+            android:id="@+id/drag_line"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/ds_size_01"
+            android:layout_gravity="center_horizontal"
+            android:background="#7F868686"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/button_close" />
+
+        <ImageButton
+            android:id="@+id/button_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/ds_size_02"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/common_close"
+            android:padding="@dimen/ds_size_02"
+            android:src="@drawable/ds_ic_cancel"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/ds_gray_light" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.core.widget.NestedScrollView
-        android:id="@+id/container_fragment"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/ds_size_02"
-        app:layout_constraintBottom_toTopOf="@id/container_buttons"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_close">
+        android:id="@+id/scroll_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/ds_size_02"
+        android:layout_weight="1">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -83,7 +89,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/text_tile"
-                tools:maxLines="15"
+                tools:maxLines="150"
                 tools:text="@tools:sample/lorem/random"
                 tools:visibility="visible" />
 
@@ -92,22 +98,28 @@
     </androidx.core.widget.NestedScrollView>
 
     <LinearLayout
-        android:id="@+id/container_buttons"
-        android:layout_width="0dp"
+        android:id="@+id/custom_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/ds_size_02"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingHorizontal="@dimen/ds_size_02"
-        android:paddingTop="@dimen/ds_size_04"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        android:paddingBottom="@dimen/ds_size_02">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_primary"
             style="@style/DsPrimaryButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/ds_size_04"
+            android:layout_marginTop="@dimen/ds_size_02"
             android:visibility="gone"
             tools:text="Primary button"
             tools:visibility="visible" />
@@ -117,11 +129,11 @@
             style="@style/DsSecondaryButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/ds_size_04"
+            android:layout_marginTop="@dimen/ds_size_02"
             android:visibility="gone"
             tools:text="Secondary button"
             tools:visibility="visible" />
 
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

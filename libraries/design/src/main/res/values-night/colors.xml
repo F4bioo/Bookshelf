@@ -10,7 +10,7 @@
     <color name="ds_secondary_variant">#018786</color>
     <color name="ds_on_secondary">#828282</color>
 
-    <color name="ds_bg_ds_modal_host">#222222</color>
+    <color name="ds_bg_ds_feedback_modal">#222222</color>
     <color name="ds_highlight_medium">#1C0287D0</color>
     <color name="ds_gray_divider">#474747</color>
     <color name="ds_charcoal">#707070 </color>

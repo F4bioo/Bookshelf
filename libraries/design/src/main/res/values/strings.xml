@@ -10,5 +10,5 @@
     <string name="common_got_it">I got it</string>
     <string name="common_error_title">Something went wrong!</string>
     <string name="common_error_message">Please check the internet connection and try again.</string>
-    <string name="common_empty_list">Search a book title or pick a topic below to discover books.</string>
+    <string name="common_load_failed">Oops! Content loading failed. Let\'s try again?</string>
 </resources>

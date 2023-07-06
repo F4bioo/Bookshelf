@@ -112,6 +112,11 @@
         <item name="cornerSize">8%</item>
     </style>
 
+    <style name="DsFabRoundedSquare" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
     <style name="DsBottomSheet" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
         <item name="android:windowIsFloating">false</item>
         <item name="bottomSheetStyle">@style/BottomSheetTopRadius</item>

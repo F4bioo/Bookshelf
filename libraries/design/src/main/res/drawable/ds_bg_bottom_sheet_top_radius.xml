@@ -13,5 +13,5 @@
         android:topLeftRadius="@dimen/ds_size_04"
         android:topRightRadius="@dimen/ds_size_04" />
 
-    <solid android:color="@color/ds_bg_ds_modal_host" />
+    <solid android:color="@color/ds_bg_ds_feedback_modal" />
 </shape>
