@@ -42,10 +42,9 @@ android {
                     "$rootDir/app/proguard-rules-staging.pro"
         }
     }
-    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
-        kotlinOptions {
-            jvmTarget = "1.8"
-        }
+    kotlinOptions {
+        jvmTarget = '1.8'
+        freeCompilerArgs += ["-Xopt-in=kotlin.RequiresOptIn"]
     }
     tasks.withType(Detekt).configureEach { detekt ->
         reports {
