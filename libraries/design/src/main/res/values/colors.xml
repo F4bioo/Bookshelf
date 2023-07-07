@@ -20,4 +20,6 @@
     <color name="ds_green">#4CAF50</color>
     <color name="ds_red">#E5281A</color>
     <color name="ds_charcoal">#E4E4E4</color>
+    <color name="ds_cyan">#00ACC1</color>
+
 </resources>

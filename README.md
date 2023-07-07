@@ -44,4 +44,8 @@ API_KEY="Your-Api-Key-Here"
 
 Replace "Your-Api-Key-Here" with your actual API key.
 
+## Screens
+<img src="images/theme_light_mode.png" width="100%"/>
+<img src="images/theme_dark_mode.png" width="100%"/>
+
 This project demonstrates a solid understanding of modern Android development practices, including unit testing, integration testing, and coding to a high standard.
