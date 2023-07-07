@@ -27,4 +27,5 @@
     <string name="publisher_placeholder"><![CDATA[Publisher: <b>%s<b>]]></string>
     <string name="published_placeholder"><![CDATA[Published year: <b>%s<b>]]></string>
     <string name="buy">Buy</string>
+    <string name="error_buy_book">Sorry, book purchase is unavailable.</string>
 </resources>

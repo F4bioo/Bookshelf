@@ -14,6 +14,7 @@ import com.fappslab.bookshelf.main.presentation.adapter.LoadAdapter
 import com.fappslab.bookshelf.main.presentation.adapter.MainAdapter
 import com.fappslab.bookshelf.main.presentation.extension.createChip
 import com.fappslab.bookshelf.main.presentation.extension.navigateToLinkIntent
+import com.fappslab.bookshelf.main.presentation.extension.showErrorBuyBookAction
 import com.fappslab.bookshelf.main.presentation.extension.showFeedbackDetails
 import com.fappslab.bookshelf.main.presentation.extension.showFeedbackError
 import com.fappslab.bookshelf.main.presentation.model.ChipType
@@ -58,6 +59,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         onViewAction(viewModel) { action ->
             when (action) {
                 is MainViewAction.BuyBook -> navigateToExternalLinkAction(action.url)
+                MainViewAction.ShowErrorBuyBook -> showErrorBuyBookAction()
                 MainViewAction.Favorites -> navigateToFavoritesAction()
                 MainViewAction.HiddenKeyboard -> hideKeyboardAction()
                 MainViewAction.TryAgain -> tryAgainAction()

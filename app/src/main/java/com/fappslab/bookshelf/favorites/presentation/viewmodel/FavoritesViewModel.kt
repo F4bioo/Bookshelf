@@ -50,7 +50,11 @@ class FavoritesViewModel(
             .disposableHandler()
     }
 
-    fun onBuyBook(url: String) {
-        onAction { FavoritesViewAction.BuyBook(url) }
+    fun onBuyBook(urlPair: Pair<Boolean, String>) {
+        val (isValidUrl, url) = urlPair
+        val action = if (isValidUrl) {
+            FavoritesViewAction.BuyBook(url)
+        } else FavoritesViewAction.ShowErrorBuyBook
+        onAction { action }
     }
 }

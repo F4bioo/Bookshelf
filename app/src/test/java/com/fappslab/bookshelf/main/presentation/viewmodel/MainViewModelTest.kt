@@ -289,13 +289,32 @@ class MainViewModelTest {
     }
 
     @Test
-    fun `onBuyBook Should emit When LoadState is Loading`() {
+    fun `onBuyBookSuccess Should emit BuyBook action When invoked with a valid link`() {
         // Given
         val url = "some_url"
+        val urlPair = true to url
         val expectedAction = MainViewAction.BuyBook(url)
 
         // When
-        subject.onBuyBook(url = "some_url")
+        subject.onBuyBook(urlPair = urlPair)
+
+        // Then
+        runTest {
+            subject.action.test {
+                assertEquals(expectedAction, awaitItem())
+            }
+        }
+    }
+
+    @Test
+    fun `onBuyBookFailure Should emit ShowErrorBuyBook action When invoked with an invalid link`() {
+        // Given
+        val url = ""
+        val urlPair = false to url
+        val expectedAction = MainViewAction.ShowErrorBuyBook
+
+        // When
+        subject.onBuyBook(urlPair = urlPair)
 
         // Then
         runTest {

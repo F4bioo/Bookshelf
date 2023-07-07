@@ -66,8 +66,12 @@ class MainViewModel(
             .disposableHandler()
     }
 
-    fun onBuyBook(url: String) {
-        onAction { MainViewAction.BuyBook(url) }
+    fun onBuyBook(urlPair: Pair<Boolean, String>) {
+        val (isValidUrl, url) = urlPair
+        val action = if (isValidUrl) {
+            MainViewAction.BuyBook(url)
+        } else MainViewAction.ShowErrorBuyBook
+        onAction { action }
     }
 
     fun onBackPressed() = state.value.run {

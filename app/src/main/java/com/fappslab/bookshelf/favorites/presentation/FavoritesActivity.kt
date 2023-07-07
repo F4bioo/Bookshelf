@@ -12,6 +12,7 @@ import com.fappslab.bookshelf.favorites.presentation.viewmodel.FavoritesViewMode
 import com.fappslab.bookshelf.favorites.presentation.viewmodel.FavoritesViewState
 import com.fappslab.bookshelf.main.domain.model.Book
 import com.fappslab.bookshelf.main.presentation.extension.navigateToLinkIntent
+import com.fappslab.bookshelf.main.presentation.extension.showErrorBuyBookAction
 import com.fappslab.bookshelf.main.presentation.extension.showFeedbackDetails
 import com.fappslab.libraries.arch.viewbinding.viewBinding
 import com.fappslab.libraries.arch.viewmodel.onViewAction
@@ -44,6 +45,7 @@ class FavoritesActivity : AppCompatActivity(R.layout.activity_favorites) {
         onViewAction(viewModel) { action ->
             when (action) {
                 is FavoritesViewAction.BuyBook -> navigateToExternalLinkAction(action.url)
+                FavoritesViewAction.ShowErrorBuyBook -> showErrorBuyBookAction()
                 FavoritesViewAction.BackPressed -> finish()
             }
         }

@@ -6,9 +6,13 @@ import android.view.ContextThemeWrapper
 import android.view.View
 import android.view.ViewGroup.LayoutParams
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
+import android.webkit.URLUtil
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentActivity
 import coil.load
 import coil.transform.RoundedCornersTransformation
+import com.fappslab.bookshelf.R
 import com.fappslab.bookshelf.databinding.DialogDetailsBinding
 import com.fappslab.bookshelf.main.domain.model.Book
 import com.fappslab.bookshelf.main.presentation.model.ChipType
@@ -24,10 +28,7 @@ private const val FEEDBACK_DETAILS_TAG = "FEEDBACK_DETAILS_TAG"
 private const val BUY_QUERY = "&sitesec=buy"
 
 fun FragmentActivity.showFeedbackError(
-    shouldShow: Boolean,
-    message: String,
-    primaryAction: () -> Unit,
-    dismissAction: () -> Unit
+    shouldShow: Boolean, message: String, primaryAction: () -> Unit, dismissAction: () -> Unit
 ) {
     dsFeedbackModal {
         titleRes = DS.string.common_error_title
@@ -49,7 +50,7 @@ fun FragmentActivity.showFeedbackDetails(
     shouldShow: Boolean,
     book: Book?,
     favoriteAction: (Book) -> Unit,
-    buyAction: (String) -> Unit,
+    buyAction: (Pair<Boolean, String>) -> Unit,
     dismissAction: () -> Unit
 ) {
 
@@ -71,7 +72,7 @@ fun FragmentActivity.showFeedbackDetails(
                 favoriteAction(book.copy(isFavorite = isChecked))
             }
             buttonBuy.setOnClickListener {
-                buyAction(book.infoLink)
+                buyAction(book.infoLink.urlSanitize())
             }
         }
 
@@ -82,23 +83,31 @@ fun FragmentActivity.showFeedbackDetails(
     }
 }
 
+fun AppCompatActivity.showErrorBuyBookAction() {
+    Toast.makeText(this, getString(R.string.error_buy_book), Toast.LENGTH_LONG).show()
+}
+
 fun FragmentActivity.createChip(chipType: ChipType, primaryAction: (query: String) -> Unit): Chip =
-    Chip(ContextThemeWrapper(this, AS.style.Widget_MaterialComponents_Chip_Action))
-        .apply {
-            layoutParams = LayoutParams(WRAP_CONTENT, WRAP_CONTENT)
-            setOnClickListener { primaryAction(chipType.name) }
-            id = View.generateViewId()
-            setText(chipType.textRes)
-            isCloseIconVisible = false
-            isCheckedIconVisible = false
-            isChipIconVisible = false
-            isCheckable = false
-            isClickable = true
-            isFocusable = true
-        }
+    Chip(ContextThemeWrapper(this, AS.style.Widget_MaterialComponents_Chip_Action)).apply {
+        layoutParams = LayoutParams(WRAP_CONTENT, WRAP_CONTENT)
+        setOnClickListener { primaryAction(chipType.name) }
+        id = View.generateViewId()
+        setText(chipType.textRes)
+        isCloseIconVisible = false
+        isCheckedIconVisible = false
+        isChipIconVisible = false
+        isCheckable = false
+        isClickable = true
+        isFocusable = true
+    }
 
 fun String.navigateToLinkIntent(): Intent {
-    return Intent(Intent.ACTION_VIEW).apply {
-        data = Uri.parse("${this@navigateToLinkIntent}$BUY_QUERY")
-    }
+    val url = this@navigateToLinkIntent
+    return Intent(Intent.ACTION_VIEW)
+        .apply { data = Uri.parse(url) }
+}
+
+fun String.urlSanitize(): Pair<Boolean, String> {
+    val url = "$this$BUY_QUERY"
+    return URLUtil.isValidUrl(url) to url
 }
