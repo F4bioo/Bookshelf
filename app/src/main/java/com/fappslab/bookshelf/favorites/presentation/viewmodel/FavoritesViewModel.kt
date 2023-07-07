@@ -1,18 +1,15 @@
 package com.fappslab.bookshelf.favorites.presentation.viewmodel
 
 import com.fappslab.bookshelf.R
+import com.fappslab.bookshelf.favorites.domain.usecase.FavoritesUseCaseProvider
 import com.fappslab.bookshelf.main.domain.model.Book
-import com.fappslab.bookshelf.main.domain.usecase.GetFavoritesUseCase
-import com.fappslab.bookshelf.main.domain.usecase.SetFavoriteUseCase
 import com.fappslab.libraries.arch.extension.schedulerOn
 import com.fappslab.libraries.arch.viewmodel.ViewModel
 import io.reactivex.Scheduler
 import io.reactivex.android.schedulers.AndroidSchedulers
 
-@Suppress("UnusedPrivateMember")
 class FavoritesViewModel(
-    private val getFavoritesUseCase: GetFavoritesUseCase,
-    private val setFavoriteUseCase: SetFavoriteUseCase,
+    private val provider: FavoritesUseCaseProvider,
     private val scheduler: Scheduler = AndroidSchedulers.mainThread()
 ) : ViewModel<FavoritesViewState, FavoritesViewAction>(FavoritesViewState()) {
 
@@ -21,7 +18,7 @@ class FavoritesViewModel(
     }
 
     private fun getFavorites() {
-        getFavoritesUseCase()
+        provider.getFavoritesUseCase()
             .schedulerOn(scheduler)
             .subscribe({ getFavoritesSuccess(bookList = it) }, {})
             .disposableHandler()
@@ -47,7 +44,7 @@ class FavoritesViewModel(
     }
 
     fun onFavorite(book: Book) {
-        setFavoriteUseCase(book)
+        provider.setFavoriteUseCase(book)
             .schedulerOn(scheduler)
             .subscribe({}, {})
             .disposableHandler()

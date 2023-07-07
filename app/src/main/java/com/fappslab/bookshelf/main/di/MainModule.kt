@@ -13,6 +13,7 @@ import com.fappslab.bookshelf.main.domain.repository.BookshelfRepository
 import com.fappslab.bookshelf.main.domain.usecase.GetBooksUseCase
 import com.fappslab.bookshelf.main.domain.usecase.GetFavoriteUseCase
 import com.fappslab.bookshelf.main.domain.usecase.SetFavoriteUseCase
+import com.fappslab.bookshelf.main.domain.usecase.provider.MainUseCaseProvider
 import com.fappslab.bookshelf.main.presentation.viewmodel.MainViewModel
 import com.fappslab.libraries.arch.koinload.KoinLoad
 import com.fappslab.libraries.arch.network.client.HttpClient
@@ -43,9 +44,11 @@ object MainModule : KoinLoad() {
         viewModel {
             val repository = getBookshelfRepository()
             MainViewModel(
-                getBooksUseCase = GetBooksUseCase(repository),
-                getFavoriteUseCase = GetFavoriteUseCase(repository),
-                setFavoriteUseCase = SetFavoriteUseCase(repository)
+                provider = MainUseCaseProvider(
+                    getBooksUseCase = GetBooksUseCase(repository),
+                    getFavoriteUseCase = GetFavoriteUseCase(repository),
+                    setFavoriteUseCase = SetFavoriteUseCase(repository)
+                )
             )
         }
     }

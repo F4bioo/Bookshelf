@@ -4,28 +4,20 @@ import androidx.lifecycle.viewModelScope
 import androidx.paging.CombinedLoadStates
 import androidx.paging.LoadState
 import androidx.paging.PagingData
-import androidx.paging.rxjava2.cachedIn
 import com.fappslab.bookshelf.main.domain.model.Book
-import com.fappslab.bookshelf.main.domain.usecase.GetBooksUseCase
-import com.fappslab.bookshelf.main.domain.usecase.GetFavoriteUseCase
-import com.fappslab.bookshelf.main.domain.usecase.SetFavoriteUseCase
+import com.fappslab.bookshelf.main.domain.usecase.provider.MainUseCaseProvider
 import com.fappslab.libraries.arch.extension.schedulerOn
 import com.fappslab.libraries.arch.viewmodel.ViewModel
 import io.reactivex.Scheduler
 import io.reactivex.android.schedulers.AndroidSchedulers
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 class MainViewModel(
-    private val getBooksUseCase: GetBooksUseCase,
-    private val getFavoriteUseCase: GetFavoriteUseCase,
-    private val setFavoriteUseCase: SetFavoriteUseCase,
+    private val provider: MainUseCaseProvider,
     private val scheduler: Scheduler = AndroidSchedulers.mainThread()
 ) : ViewModel<MainViewState, MainViewAction>(MainViewState()) {
 
-    @OptIn(ExperimentalCoroutinesApi::class)
     fun getBooks(query: String) {
-        getBooksUseCase(query)
-            .cachedIn(viewModelScope)
+        provider.getBooksUseCase(query, viewModelScope)
             .subscribe { getBooksSuccess(pagingData = it) }
             .disposableHandler()
     }
@@ -53,7 +45,7 @@ class MainViewModel(
     }
 
     fun onAdapterItem(book: Book) {
-        getFavoriteUseCase(book)
+        provider.getFavoriteUseCase(book)
             .schedulerOn(scheduler)
             .subscribe(::openDetails)
             .disposableHandler()
@@ -68,14 +60,14 @@ class MainViewModel(
     }
 
     fun onFavorite(book: Book) {
-        setFavoriteUseCase(book)
+        provider.setFavoriteUseCase(book)
             .schedulerOn(scheduler)
             .subscribe({}, {})
             .disposableHandler()
     }
 
     fun onBackPressed() = state.value.run {
-        if (childPosition != CHIP_CHILD) {
+        if (childPosition == SUCCESS_CHILD) {
             onState { it.copy(childPosition = CHIP_CHILD, pagingData = PagingData.empty()) }
         } else onAction { MainViewAction.BackPressed }
     }
