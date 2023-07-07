@@ -29,6 +29,11 @@ The application is built using Clean Architecture principles, with the MVVM/MVI 
 - **UI testing:** Espresso
 - **Quality control:** Jacoco for code coverage, Detekt for static code analysis
 
+This project also includes additional modules:
+
+- **Arch Module:** Contains utility classes such as extensions, testing rules and other helpers for improving the development experience.
+- **Design Module:** Includes a design system encapsulating colors, dimensions (dp, sp), drawables, etc., ensuring a consistent visual design across the application.
+
 ## How to Build
 
 To build this project, you need to create a `keyApi.properties` file in the project root directory. This file should contain a proprietary key for Google Books API, which is used for network calls within the application. Your `keyApi.properties` file should look something like this:
