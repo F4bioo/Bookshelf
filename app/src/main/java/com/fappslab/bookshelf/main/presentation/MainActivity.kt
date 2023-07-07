@@ -94,9 +94,9 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         binding.progress.isVisible = isVisible
     }
 
-    private fun MainViewState.showFeedbackDetailsState() {
+    private fun MainViewState.showFeedbackDetailsState() = book?.let {
         showFeedbackDetails(
-            book = book,
+            book = it,
             shouldShow = shouldShowDetails,
             favoriteAction = viewModel::onFavorite,
             dismissAction = viewModel::onDismissFeedbackDetails,

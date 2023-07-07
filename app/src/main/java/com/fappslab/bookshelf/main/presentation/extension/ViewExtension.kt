@@ -51,39 +51,36 @@ fun FragmentActivity.showFeedbackError(
 
 fun FragmentActivity.showFeedbackDetails(
     shouldShow: Boolean,
-    book: Book?,
+    book: Book,
     favoriteAction: (Book) -> Unit,
     buyAction: (Pair<Boolean, String>) -> Unit,
     dismissAction: () -> Unit
 ) {
-
-    book?.run {
-        val binding = DialogDetailsBinding.inflate(layoutInflater).apply {
-            textTitle.text = title
-            textSubtitle.text = subtitle
-            textAuthor.text = authors.toString()
-            textDescription.text = description
-            textPublisher.text = publisher
-            textPublishedDate.text = publishedDate
-            textPageCount.text = pageCount
-            checkFavorite.isChecked = isFavorite
-            buttonClose.setOnClickListener { dismissAction() }
-            imageCover.load(book.thumbnail) {
-                transformations(RoundedCornersTransformation(radius = 28f))
-            }
-            checkFavorite.setOnCheckedChangeListener { _, isChecked ->
-                favoriteAction(book.copy(isFavorite = isChecked))
-            }
-            buttonBuy.setOnClickListener {
-                buyAction(book.infoLink.urlSanitize())
-            }
+    val binding = DialogDetailsBinding.inflate(layoutInflater).apply {
+        textTitle.text = title
+        textSubtitle.text = book.subtitle
+        textAuthor.text = book.authors.toString()
+        textDescription.text = book.description
+        textPublisher.text = book.publisher
+        textPublishedDate.text = book.publishedDate
+        textPageCount.text = book.pageCount
+        checkFavorite.isChecked = book.isFavorite
+        buttonClose.setOnClickListener { dismissAction() }
+        imageCover.load(book.thumbnail) {
+            transformations(RoundedCornersTransformation(radius = 28f))
         }
-
-        dsFeedbackModal {
-            customView = binding.root
-            shouldBlock = true
-        }.build(shouldShow, supportFragmentManager, FEEDBACK_DETAILS_TAG)
+        checkFavorite.setOnCheckedChangeListener { _, isChecked ->
+            favoriteAction(book.copy(isFavorite = isChecked))
+        }
+        buttonBuy.setOnClickListener {
+            buyAction(book.infoLink.urlSanitize())
+        }
     }
+
+    dsFeedbackModal {
+        customView = binding.root
+        shouldBlock = true
+    }.build(shouldShow, supportFragmentManager, FEEDBACK_DETAILS_TAG)
 }
 
 fun AppCompatActivity.showErrorBuyBookAction() {
@@ -108,12 +105,12 @@ fun FragmentActivity.createChip(
     }
 
 fun String.navigateToLinkIntent(): Intent {
-    val url = this@navigateToLinkIntent
+    val url = this
     return Intent(Intent.ACTION_VIEW)
         .apply { data = Uri.parse(url) }
 }
 
-fun String.urlSanitize(): Pair<Boolean, String> {
+private fun String.urlSanitize(): Pair<Boolean, String> {
     val url = "$this$BUY_QUERY"
     return URLUtil.isValidUrl(url) to url
 }

@@ -61,9 +61,9 @@ class FavoritesActivity : AppCompatActivity(R.layout.activity_favorites) {
         itemAnimator = null
     }
 
-    private fun FavoritesViewState.showFeedbackDetailsState() {
+    private fun FavoritesViewState.showFeedbackDetailsState() = book?.let {
         showFeedbackDetails(
-            book = book,
+            book = it,
             shouldShow = shouldShowDetails,
             favoriteAction = viewModel::onFavorite,
             dismissAction = viewModel::onDismissFeedbackDetails,
