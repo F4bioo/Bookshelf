@@ -1,5 +1,7 @@
 package com.fappslab.bookshelf.main.presentation.extension
 
+import android.content.Intent
+import android.net.Uri
 import android.view.ContextThemeWrapper
 import android.view.View
 import android.view.ViewGroup.LayoutParams
@@ -19,6 +21,7 @@ import com.google.android.material.R as AS
 
 private const val FEEDBACK_ERROR_TAG = "FEEDBACK_ERROR_TAG"
 private const val FEEDBACK_DETAILS_TAG = "FEEDBACK_DETAILS_TAG"
+private const val BUY_QUERY = "&sitesec=buy"
 
 fun FragmentActivity.showFeedbackError(
     shouldShow: Boolean,
@@ -46,6 +49,7 @@ fun FragmentActivity.showFeedbackDetails(
     shouldShow: Boolean,
     book: Book?,
     favoriteAction: (Book) -> Unit,
+    buyAction: (String) -> Unit,
     dismissAction: () -> Unit
 ) {
 
@@ -65,6 +69,9 @@ fun FragmentActivity.showFeedbackDetails(
             }
             checkFavorite.setOnCheckedChangeListener { _, isChecked ->
                 favoriteAction(book.copy(isFavorite = isChecked))
+            }
+            buttonBuy.setOnClickListener {
+                buyAction(book.infoLink)
             }
         }
 
@@ -89,3 +96,9 @@ fun FragmentActivity.createChip(chipType: ChipType, primaryAction: (query: Strin
             isClickable = true
             isFocusable = true
         }
+
+fun String.navigateToLinkIntent(): Intent {
+    return Intent(Intent.ACTION_VIEW).apply {
+        data = Uri.parse("${this@navigateToLinkIntent}$BUY_QUERY")
+    }
+}

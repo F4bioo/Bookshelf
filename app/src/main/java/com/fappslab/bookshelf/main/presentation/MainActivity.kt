@@ -13,6 +13,7 @@ import com.fappslab.bookshelf.main.domain.model.Book
 import com.fappslab.bookshelf.main.presentation.adapter.LoadAdapter
 import com.fappslab.bookshelf.main.presentation.adapter.MainAdapter
 import com.fappslab.bookshelf.main.presentation.extension.createChip
+import com.fappslab.bookshelf.main.presentation.extension.navigateToLinkIntent
 import com.fappslab.bookshelf.main.presentation.extension.showFeedbackDetails
 import com.fappslab.bookshelf.main.presentation.extension.showFeedbackError
 import com.fappslab.bookshelf.main.presentation.model.ChipType
@@ -56,6 +57,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
         onViewAction(viewModel) { action ->
             when (action) {
+                is MainViewAction.BuyBook -> navigateToExternalLinkAction(action.url)
                 MainViewAction.Favorites -> navigateToFavoritesAction()
                 MainViewAction.HiddenKeyboard -> hideKeyboardAction()
                 MainViewAction.TryAgain -> tryAgainAction()
@@ -95,7 +97,8 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
             book = book,
             shouldShow = shouldShowDetails,
             favoriteAction = viewModel::onFavorite,
-            dismissAction = viewModel::onDismissFeedbackDetails
+            dismissAction = viewModel::onDismissFeedbackDetails,
+            buyAction = viewModel::onBuyBook
         )
     }
 
@@ -106,6 +109,11 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
             primaryAction = viewModel::onTryAgain,
             dismissAction = viewModel::onDismissFeedbackError
         )
+    }
+
+    private fun navigateToExternalLinkAction(url: String) {
+        url.navigateToLinkIntent()
+            .also(::startActivity)
     }
 
     private fun navigateToFavoritesAction() {

@@ -49,4 +49,8 @@ class FavoritesViewModel(
             .subscribe({}, {})
             .disposableHandler()
     }
+
+    fun onBuyBook(url: String) {
+        onAction { FavoritesViewAction.BuyBook(url) }
+    }
 }

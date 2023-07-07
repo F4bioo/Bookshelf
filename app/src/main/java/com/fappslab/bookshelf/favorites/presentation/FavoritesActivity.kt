@@ -11,6 +11,7 @@ import com.fappslab.bookshelf.favorites.presentation.viewmodel.FavoritesViewActi
 import com.fappslab.bookshelf.favorites.presentation.viewmodel.FavoritesViewModel
 import com.fappslab.bookshelf.favorites.presentation.viewmodel.FavoritesViewState
 import com.fappslab.bookshelf.main.domain.model.Book
+import com.fappslab.bookshelf.main.presentation.extension.navigateToLinkIntent
 import com.fappslab.bookshelf.main.presentation.extension.showFeedbackDetails
 import com.fappslab.libraries.arch.viewbinding.viewBinding
 import com.fappslab.libraries.arch.viewmodel.onViewAction
@@ -42,13 +43,14 @@ class FavoritesActivity : AppCompatActivity(R.layout.activity_favorites) {
 
         onViewAction(viewModel) { action ->
             when (action) {
+                is FavoritesViewAction.BuyBook -> navigateToExternalLinkAction(action.url)
                 FavoritesViewAction.BackPressed -> finish()
             }
         }
     }
 
     private fun setupListeners() = binding.run {
-        includeEmpty.buttonBack.setOnClickListener {viewModel.onBackPressed() }
+        includeEmpty.buttonBack.setOnClickListener { viewModel.onBackPressed() }
         backPressedCallback(block = viewModel::onBackPressed)
     }
 
@@ -62,7 +64,8 @@ class FavoritesActivity : AppCompatActivity(R.layout.activity_favorites) {
             book = book,
             shouldShow = shouldShowDetails,
             favoriteAction = viewModel::onFavorite,
-            dismissAction = viewModel::onDismissFeedbackDetails
+            dismissAction = viewModel::onDismissFeedbackDetails,
+            buyAction = viewModel::onBuyBook
         )
     }
 
@@ -72,6 +75,11 @@ class FavoritesActivity : AppCompatActivity(R.layout.activity_favorites) {
 
     private fun submitListState(bookList: List<Book>?) {
         favoritesAdapter.submitList(bookList)
+    }
+
+    private fun navigateToExternalLinkAction(url: String) {
+        url.navigateToLinkIntent()
+            .also(::startActivity)
     }
 
     companion object {

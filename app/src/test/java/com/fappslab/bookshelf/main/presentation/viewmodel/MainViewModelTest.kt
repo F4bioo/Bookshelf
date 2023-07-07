@@ -287,4 +287,21 @@ class MainViewModelTest {
             assertTrue(newState.shouldShowLoading)
         }
     }
+
+    @Test
+    fun `onBuyBook Should emit When LoadState is Loading`() {
+        // Given
+        val url = "some_url"
+        val expectedAction = MainViewAction.BuyBook(url)
+
+        // When
+        subject.onBuyBook(url = "some_url")
+
+        // Then
+        runTest {
+            subject.action.test {
+                assertEquals(expectedAction, awaitItem())
+            }
+        }
+    }
 }

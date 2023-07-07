@@ -66,6 +66,10 @@ class MainViewModel(
             .disposableHandler()
     }
 
+    fun onBuyBook(url: String) {
+        onAction { MainViewAction.BuyBook(url) }
+    }
+
     fun onBackPressed() = state.value.run {
         if (childPosition == SUCCESS_CHILD) {
             onState { it.copy(childPosition = CHIP_CHILD, pagingData = PagingData.empty()) }
