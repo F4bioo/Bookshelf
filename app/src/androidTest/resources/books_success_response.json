@@ -1,0 +1,1803 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 7,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "F_pICAAAQBAJ",
+      "etag": "iI8NCYzx1dc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/F_pICAAAQBAJ",
+      "volumeInfo": {
+        "title": "Integration of AI and OR Techniques in Constraint Programming",
+        "subtitle": "12th International Conference, CPAIOR 2015, Barcelona, Spain, May 18-22, 2015, Proceedings",
+        "authors": [
+          "Laurent Michel"
+        ],
+        "publisher": "Springer",
+        "publishedDate": "2015-04-15",
+        "description": "This book constitutes the proceedings of the 12th International Conference on the Integration of Artificial Intelligence (AI) and Operations Research (OR) Techniques in Constraint Programming, CPAIOR 2015, held in Barcelona, Spain, in May 2015. The 29 papers presented together with 8 short papers in this volume were carefully reviewed and selected from 90 submissions. The purpose of the conference series is to bring together researchers in the fields of Constraint Programming, Artificial Intelligence and Operations Research to explore ways of solving hard and large scale combinatorial optimization problems that emerge in various industrial domains. Pooling the skills and strengths of this diverse group of researchers has proved extremely effective and valuable during the past decade leading to improvements and cross-fertilization between the three fields as well as breakthrough for actual applications.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783319180083"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3319180088"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 456,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=F_pICAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=F_pICAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=F_pICAAAQBAJ&printsec=frontcover&dq=AI&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=F_pICAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=F_pICAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 278.38,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 278.38,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=F_pICAAAQBAJ&rdid=book-F_pICAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 278380000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 278380000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Integration_of_AI_and_OR_Techniques_in_C-sample-pdf.acsm?id=F_pICAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=F_pICAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book constitutes the proceedings of the 12th International Conference on the Integration of Artificial Intelligence (AI) and Operations Research (OR) Techniques in Constraint Programming, CPAIOR 2015, held in Barcelona, Spain, in May ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ZSs4EAAAQBAJ",
+      "etag": "4b1DSKOw1n0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZSs4EAAAQBAJ",
+      "volumeInfo": {
+        "title": "Advances in Artificial Intelligence, Computation, and Data Science",
+        "subtitle": "For Medicine and Life Science",
+        "authors": [
+          "Tuan D. Pham",
+          "Hong Yan",
+          "Muhammad W. Ashraf",
+          "Folke Sjöberg"
+        ],
+        "publisher": "Springer Nature",
+        "publishedDate": "2021-07-12",
+        "description": "Artificial intelligence (AI) has become pervasive in most areas of research and applications. While computation can significantly reduce mental efforts for complex problem solving, effective computer algorithms allow continuous improvement of AI tools to handle complexity—in both time and memory requirements—for machine learning in large datasets. Meanwhile, data science is an evolving scientific discipline that strives to overcome the hindrance of traditional skills that are too limited to enable scientific discovery when leveraging research outcomes. Solutions to many problems in medicine and life science, which cannot be answered by these conventional approaches, are urgently needed for society. This edited book attempts to report recent advances in the complementary domains of AI, computation, and data science with applications in medicine and life science. The benefits to the reader are manifold as researchers from similar or different fields can be aware of advanced developments and novel applications that can be useful for either immediate implementations or future scientific pursuit. Features: Considers recent advances in AI, computation, and data science for solving complex problems in medicine, physiology, biology, chemistry, and biochemistry Provides recent developments in three evolving key areas and their complementary combinations: AI, computation, and data science Reports on applications in medicine and physiology, including cancer, neuroscience, and digital pathology Examines applications in life science, including systems biology, biochemistry, and even food technology This unique book, representing research from a team of international contributors, has not only real utility in academia for those in the medical and life sciences communities, but also a much wider readership from industry, science, and other areas of technology and education.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783030699512"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "303069951X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 369,
+        "printType": "BOOK",
+        "categories": [
+          "Science"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ZSs4EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ZSs4EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=ZSs4EAAAQBAJ&printsec=frontcover&dq=AI&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ZSs4EAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ZSs4EAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 890.94,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 890.94,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ZSs4EAAAQBAJ&rdid=book-ZSs4EAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 890940000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 890940000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Advances_in_Artificial_Intelligence_Comp-sample-epub.acsm?id=ZSs4EAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Advances_in_Artificial_Intelligence_Comp-sample-pdf.acsm?id=ZSs4EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ZSs4EAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This edited book attempts to report recent advances in the complementary domains of AI, computation, and data science with applications in medicine and life science."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "hrTvDwAAQBAJ",
+      "etag": "e2FGeoP3STk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/hrTvDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Artificial General Intelligence",
+        "subtitle": "13th International Conference, AGI 2020, St. Petersburg, Russia, September 16–19, 2020, Proceedings",
+        "authors": [
+          "Ben Goertzel",
+          "Aleksandr I. Panov",
+          "Alexey Potapov",
+          "Roman Yampolskiy"
+        ],
+        "publisher": "Springer Nature",
+        "publishedDate": "2020-07-06",
+        "description": "This book constitutes the refereed proceedings of the 13th International Conference on Artificial General Intelligence, AGI 2020, held in St. Petersburg, Russia, in September 2020. The 30 full papers and 8 short papers presented in this book were carefully reviewed and selected from 60 submissions. The papers cover topics such as AGI architectures, artificial creativity and AI safety, transfer learning, AI unification and benchmarks for AGI.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783030521523"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3030521524"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 372,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=hrTvDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=hrTvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=hrTvDwAAQBAJ&printsec=frontcover&dq=AI&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=hrTvDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hrTvDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 473.29,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 473.29,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=hrTvDwAAQBAJ&rdid=book-hrTvDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 473290000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 473290000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Artificial_General_Intelligence-sample-epub.acsm?id=hrTvDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Artificial_General_Intelligence-sample-pdf.acsm?id=hrTvDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=hrTvDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book constitutes the refereed proceedings of the 13th International Conference on Artificial General Intelligence, AGI 2020, held in St. Petersburg, Russia, in September 2020."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "SZ0pAQAAMAAJ",
+      "etag": "6zSWyax8jfk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/SZ0pAQAAMAAJ",
+      "volumeInfo": {
+        "title": "AI Expert",
+        "publishedDate": "1987",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UIUC:30112007157800"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 922,
+        "printType": "BOOK",
+        "categories": [
+          "Artificial intelligence"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.5.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=SZ0pAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=SZ0pAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=SZ0pAQAAMAAJ&q=AI&dq=AI&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=SZ0pAQAAMAAJ&dq=AI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/AI_Expert.html?hl=&id=SZ0pAQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=SZ0pAQAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "“Why <b>Artificial Intelligence</b> Isn&#39;t (Yet),“ H. An“Building New Functions from Old,&quot; <b>AI</b> Apprentice, B. and B. Thompson, May 87, 23-28. “Compiling LISP Procedures,&quot; B.A. Pumplin. “The Death of Creativity: ls Common LISP a LISP-like&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8ZWfDwAAQBAJ",
+      "etag": "kdfwLDoY700",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8ZWfDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Advances and Trends in Artificial Intelligence. From Theory to Practice",
+        "subtitle": "32nd International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems, IEA/AIE 2019, Graz, Austria, July 9–11, 2019, Proceedings",
+        "authors": [
+          "Franz Wotawa",
+          "Gerhard Friedrich",
+          "Ingo Pill",
+          "Roxane Koitz-Hristov",
+          "Moonis Ali"
+        ],
+        "publisher": "Springer",
+        "publishedDate": "2019-06-28",
+        "description": "This book constitutes the thoroughly refereed proceedings of the 32nd International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems, IEA/AIE 2019, held in Graz, Austria, in July 2019. The 41 full papers and 32 short papers presented were carefully reviewed and selected from 151 submissions. The IEA/AIE 2019 conference will continue the tradition of emphasizing on applications of applied intelligent systems to solve real-life problems in all areas. These areas include engineering, science, industry, automation and robotics, business and finance, medicine and biomedicine, bioinformatics, cyberspace, and human-machine interactions. IEA/AIE 2019 will have a special focus on automated driving and autonomous systems and also contributions dealing with such systems or their verification and validation as well.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783030229993"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3030229998"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 868,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8ZWfDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8ZWfDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=8ZWfDwAAQBAJ&printsec=frontcover&dq=AI&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=8ZWfDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=8ZWfDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 556.82,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 556.82,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=8ZWfDwAAQBAJ&rdid=book-8ZWfDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 556820000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 556820000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Advances_and_Trends_in_Artificial_Intell-sample-epub.acsm?id=8ZWfDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Advances_and_Trends_in_Artificial_Intell-sample-pdf.acsm?id=8ZWfDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8ZWfDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book constitutes the thoroughly refereed proceedings of the 32nd International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems, IEA/AIE 2019, held in Graz, Austria, in July 2019."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "j1zxwJAlgk4C",
+      "etag": "yqbcMqdLuqY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/j1zxwJAlgk4C",
+      "volumeInfo": {
+        "title": "Development of an Army Civilian Artificial Intelligence (AI) Specialty",
+        "authors": [
+          "Gordon W. Waugh",
+          "Deirdre J. Knapp"
+        ],
+        "publishedDate": "1998",
+        "description": "The goal of this project was to develop the certification standards for the new specialty in Artificial Intelligence & Robotics (AI/Robotics) for Army civilians. A job analysis was conducted to identify AI-related job tasks performed by Army civilians and the knowledge areas (i.e. competencies) that are necessary to successfully perform them. Four one-on-one interviews and two workshops were used to develop comprehensive lists of AI-related job tasks and associated competencies. A job analysis survey was completed by 171 incumbents. The competency standards were developed at three workshops using the job analysis information. Competencies identified as the most important to successful job performance across different types of Army civilian jobs form the bases for the certification standards. To be certified, applicants will need to demonstrate that they have had sufficient amounts of education or experience or combinations of the two for all of the 6 'core competencies' and for three of the 18 'supplemental competencies.'",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UIUC:30112040275999"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 120,
+        "printType": "BOOK",
+        "categories": [
+          "Artificial intelligence"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.3.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=j1zxwJAlgk4C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=j1zxwJAlgk4C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=j1zxwJAlgk4C&q=AI&dq=AI&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=j1zxwJAlgk4C&dq=AI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Development_of_an_Army_Civilian_Artifici.html?hl=&id=j1zxwJAlgk4C"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=j1zxwJAlgk4C&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Computers SAIS-EDD S: 10 July 1996 17 June 1996 MEMORANDUM FOR DEPARTMENT OF THE ARMY CIVILIAN <b>ARTIFICIAL INTELLIGENCE</b> PROFESSIONALS SUBJECT: Army Civilian <b>Artificial Intelligence</b> (<b>AI</b>) Job Analysis Survey 1 . Your name was identified&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yVKezgEACAAJ",
+      "etag": "Ixq3nAsN6n4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yVKezgEACAAJ",
+      "volumeInfo": {
+        "title": "AI for School Teachers",
+        "authors": [
+          "Rose Luckin",
+          "Karine George",
+          "Mutlu Cukurova"
+        ],
+        "publisher": "AI for Everything",
+        "publishedDate": "2022-02",
+        "description": "AI for School Teachers will help teachers and headteachers understand enough about AI to build a strategy for how it can be used in their school.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1032037717"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781032037714"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 120,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=yVKezgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=yVKezgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=yVKezgEACAAJ&dq=AI&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=yVKezgEACAAJ&dq=AI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/AI_for_School_Teachers.html?hl=&id=yVKezgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=yVKezgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "AI for School Teachers will help teachers and headteachers understand enough about AI to build a strategy for how it can be used in their school."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "dYm3EAAAQBAJ",
+      "etag": "hoK65XgBmU4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/dYm3EAAAQBAJ",
+      "volumeInfo": {
+        "title": "AI Factory",
+        "subtitle": "Theories, Applications and Case Studies",
+        "authors": [
+          "Ramin Karim",
+          "Diego Galar",
+          "Uday Kumar"
+        ],
+        "publisher": "CRC Press",
+        "publishedDate": "2023-05-24",
+        "description": "This book provides insights into how to approach and utilise data science tools, technologies, and methodologies related to artificial intelligence (AI) in industrial contexts. It explains the essence of distributed computing and AI technologies and their interconnections. It includes descriptions of various technology and methodology approaches and their purpose and benefits when developing AI solutions in industrial contexts. In addition, this book summarises experiences from AI technology deployment projects from several industrial sectors. Features: Presents a compendium of methodologies and technologies in industrial AI and digitalisation. Illustrates the sensor-to-actuation approach showing the complete cycle, which defines and differentiates AI and digitalisation. Covers a broad range of academic and industrial issues within the field of asset management. Discusses the impact of Industry 4.0 in other sectors. Includes a dedicated chapter on real-time case studies. This book is aimed at researchers and professionals in industrial and software engineering, network security, AI and machine learning (ML), engineering managers, operational and maintenance specialists, asset managers, and digital and AI manufacturing specialists.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781000865059"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1000865053"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 445,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=dYm3EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=dYm3EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=dYm3EAAAQBAJ&pg=PA15&dq=AI&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=dYm3EAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dYm3EAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 952.97,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 952.97,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=dYm3EAAAQBAJ&rdid=book-dYm3EAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 952970000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 952970000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/AI_Factory-sample-pdf.acsm?id=dYm3EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=dYm3EAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Machines have beaten the best human players in games of poker, cybersecu- rity companies use <b>AI</b> to detect malware, and Paypal uses cognition to prevent money laundering. The next step in perception and cognition?"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ATuAEAAAQBAJ",
+      "etag": "SjRoUy13Bzw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ATuAEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Teaching AI",
+        "subtitle": "Exploring New Frontiers for Learning",
+        "authors": [
+          "Michelle Zimmerman"
+        ],
+        "publisher": "International Society for Technology in Education",
+        "publishedDate": "2018-12-15",
+        "description": "Get the tools, resources and insights you need to explore artificial intelligence in the classroom and explore what students need to know about living in a world with AI. For many, artificial intelligence, or AI, may seem like science fiction, or inherently overwhelming. The reality is that AI is already being applied in industry and, for many of us, in our daily lives as well. A better understanding of AI can help you make informed decisions in the classroom that will impact the future of your students. Drawing from a broad variety of expert voices from countries including Australia, Japan, and South Africa, as well as educators from around the world and underrepresented student voices, this book explores some of the ways AI can improve education. These include educating learners about AI, teaching them about living in a world where they will be surrounded by AI and helping educators understand how they can use AI to augment human ability. Each chapter offers activities and questions to help you deepen your understanding, try out new concepts and reflect on the information presented. Links to media artifacts from trusted sources will help make your learning experience more dynamic while also providing additional resources to use in your classroom. This book: • Offers a unique approach to the topic, with chapter opening scenes, case studies, and featured student voices. • Discusses a variety of ways to teach students about AI, through design thinking, project-based learning and STEM connections. • Includes lesson ideas, activities and tools for exploring AI with your students. • Includes references to films and other media you can use in class to start discussions on AI or inspire design thinking and STEM projects. In Teaching AI, you’ll learn what AI is, how it works and how to use it to better prepare students in a world with increased human-computer interaction.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781564847287"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1564847284"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 217,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ATuAEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ATuAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=ATuAEAAAQBAJ&pg=PA5&dq=AI&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ATuAEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ATuAEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 126.77,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 126.77,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ATuAEAAAQBAJ&rdid=book-ATuAEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 126770000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 126770000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Teaching_AI-sample-epub.acsm?id=ATuAEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Teaching_AI-sample-pdf.acsm?id=ATuAEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ATuAEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "But they were interacting with a robot, not <b>AI</b>. It&#39;s a common misconception that <b>AI</b> and robotics are the same. This may stem from science-fiction films that often depict <b>AI</b> housed within the form of a robot, or a body that appears human&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "cIXxDwAAQBAJ",
+      "etag": "8JFeGEFxt+8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/cIXxDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Data Analytics and AI",
+        "authors": [
+          "Jay Liebowitz"
+        ],
+        "publisher": "CRC Press",
+        "publishedDate": "2020-08-06",
+        "description": "Analytics and artificial intelligence (AI), what are they good for? The bandwagon keeps answering, absolutely everything! Analytics and artificial intelligence have captured the attention of everyone from top executives to the person in the street. While these disciplines have a relatively long history, within the last ten or so years they have exploded into corporate business and public consciousness. Organizations have rushed to embrace data-driven decision making. Companies everywhere are turning out products boasting that \"artificial intelligence is included.\" We are indeed living in exciting times. The question we need to ask is, do we really know how to get business value from these exciting tools? Unfortunately, both the analytics and AI communities have not done a great job in collaborating and communicating with each other to build the necessary synergies. This book bridges the gap between these two critical fields. The book begins by explaining the commonalities and differences in the fields of data science, artificial intelligence, and autonomy by giving a historical perspective for each of these fields, followed by exploration of common technologies and current trends in each field. The book also readers introduces to applications of deep learning in industry with an overview of deep learning and its key architectures, as well as a survey and discussion of the main applications of deep learning. The book also presents case studies to illustrate applications of AI and analytics. These include a case study from the healthcare industry and an investigation of a digital transformation enabled by AI and analytics transforming a product-oriented company into one delivering solutions and services. The book concludes with a proposed AI-informed data analytics life cycle to be applied to unstructured data.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781000094657"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1000094650"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 242,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=cIXxDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=cIXxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=cIXxDwAAQBAJ&pg=PA104&dq=AI&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=cIXxDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cIXxDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 336.65,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 336.65,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=cIXxDwAAQBAJ&rdid=book-cIXxDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 336650000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 336650000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Data_Analytics_and_AI-sample-pdf.acsm?id=cIXxDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=cIXxDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "With the impact of <b>AI</b> being more broadly felt and widespread than in the past, the AIDP effectively represents a government recognition that <b>AI</b> will have everyday impacts for the Chinese citizenry, a realization that reflects a sort of&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "84w7EAAAQBAJ",
+      "etag": "bsk9sdsKiFE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/84w7EAAAQBAJ",
+      "volumeInfo": {
+        "title": "AI for Creativity",
+        "authors": [
+          "Niklas Hageback"
+        ],
+        "publisher": "CRC Press",
+        "publishedDate": "2021-09-24",
+        "description": "What is computational creativity? Can AI learn to be creative? One of the human mind’s most valuable features is the capacity to formulate creative thoughts, an ability that through quantum leap innovations has propelled us to the current digital age. However, creative breakthroughs are easier said than done. Appearing less frequently and more sporadically than desired, it seems that we have not yet fully cracked the creative code. But with the rapid advances in artificial intelligence which have come to provide an ever-closer proximity with the cognitive faculties of mankind, can this emerging technology improve our creative capabilities? What will that look like and will it be the missing link in the man–machine enigma? AI for Creativity provides a fascinating look at what is currently emerging in the very cutting-edge area of artificial intelligence and the tools being developed to enable computational creativity that holds the propensity to dramatically change our lives.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781000456912"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1000456919"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 79,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=84w7EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=84w7EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=84w7EAAAQBAJ&pg=PT1&dq=AI&hl=&cd=11&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=84w7EAAAQBAJ&dq=AI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/AI_for_Creativity.html?hl=&id=84w7EAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/AI_for_Creativity-sample-epub.acsm?id=84w7EAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/AI_for_Creativity-sample-pdf.acsm?id=84w7EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=84w7EAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "<b>Artificial intelligence</b> (<b>AI</b>) is all around us. From driverless cars to game-winning computers to fraud protection, <b>AI</b> is already involved in many aspects of life, and its impact will only continue to grow in future."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yBaVDwAAQBAJ",
+      "etag": "BO7VvSeo+64",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yBaVDwAAQBAJ",
+      "volumeInfo": {
+        "title": "The Impact of Innovative ICT Education and AI on the Pedagogical Paradigm",
+        "authors": [
+          "Boris Aberšek"
+        ],
+        "publisher": "Cambridge Scholars Publishing",
+        "publishedDate": "2019-04-25",
+        "description": "To be a good teacher, one must acquire a large set of different kinds of interdisciplinary knowledge. Education for teachers and trainers consists, in part, of learning the language of education and the appropriate associated skills. A deeper understanding of judgments and choices also requires a richer vocabulary than is available in everyday language. On a systemic level, the education system needs to consider the individual as the basic building block of society, and further take into consideration the individual’s consciousness related to their emotional intelligence. Because a person’s consciousness is something entirely singular and inherent to the individual, some kind of generalization will have to be constructed, which will contribute enough in terms of novelty and progress, to make it innovative enough for the purposes of teaching and learning. This volume will serve to provoke cognitive dissonance and intellectual unease, as it explores cognitive theories and inspires researchers and teachers to update and invigorate some of the theories that have been embedded in their minds since their own school years. In order for this to happen, the book provides readers with many valuable insights and introduces new experiences resulting from alternative teaching practices.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781527533714"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1527533719"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 171,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=yBaVDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=yBaVDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=yBaVDwAAQBAJ&pg=PA125&dq=AI&hl=&cd=12&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=yBaVDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=yBaVDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 449.6,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 449.6,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=yBaVDwAAQBAJ&rdid=book-yBaVDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 449600000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 449600000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/The_Impact_of_Innovative_ICT_Education_a-sample-pdf.acsm?id=yBaVDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=yBaVDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "the hard problem of <b>AI</b>, we can mention Satya Nadella&#39;s laws (Nadella, 2016). In June 2016, Nadella, a CEO of Microsoft Corporation at the time, provided a rough outline of the five rules for <b>AI</b> to be observed by their designers: 1."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "CWL2BwAAQBAJ",
+      "etag": "DHcyn80HIXc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/CWL2BwAAQBAJ",
+      "volumeInfo": {
+        "title": "AI 2003: Advances in Artificial Intelligence",
+        "subtitle": "16th Australian Conference on AI, Perth, Australia, December 3-5, 2003, Proceedings",
+        "authors": [
+          "Tamas D. Gedeon",
+          "Lance C.C. Fung"
+        ],
+        "publisher": "Springer",
+        "publishedDate": "2003-12-01",
+        "description": "Consider the problem of a robot (algorithm, learning mechanism) moving along the real line attempting to locate a particular point ? . To assist the me- anism, we assume that it can communicate with an Environment (“Oracle”) which guides it with information regarding the direction in which it should go. If the Environment is deterministic the problem is the “Deterministic Point - cation Problem” which has been studied rather thoroughly [1]. In its pioneering version [1] the problem was presented in the setting that the Environment could charge the robot a cost which was proportional to the distance it was from the point sought for. The question of having multiple communicating robots locate a point on the line has also been studied [1, 2]. In the stochastic version of this problem, we consider the scenario when the learning mechanism attempts to locate a point in an interval with stochastic (i. e. , possibly erroneous) instead of deterministic responses from the environment. Thus when it should really be moving to the “right” it may be advised to move to the “left” and vice versa. Apart from the problem being of importance in its own right, the stoch- tic pointlocationproblemalsohas potentialapplications insolvingoptimization problems. Inmanyoptimizationsolutions–forexampleinimageprocessing,p- tern recognition and neural computing [5, 9, 11, 12, 14, 16, 19], the algorithm worksits wayfromits currentsolutionto the optimalsolutionbasedoninfor- tion that it currentlyhas. A crucialquestionis oneof determining the parameter whichtheoptimizationalgorithmshoulduse.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783540245810"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3540245812"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 1078,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=CWL2BwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=CWL2BwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=CWL2BwAAQBAJ&pg=PA456&dq=AI&hl=&cd=13&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=CWL2BwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=CWL2BwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 501.13,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 501.13,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=CWL2BwAAQBAJ&rdid=book-CWL2BwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 501130000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 501130000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/AI_2003_Advances_in_Artificial_Intellige-sample-pdf.acsm?id=CWL2BwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=CWL2BwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "16th Australian Conference on <b>AI</b>, Perth, Australia, December 3-5, 2003, Proceedings Tamas D. Gedeon, Lance C.C. Fung. A 1 A 2 A 4 A 5 A 6 A 7 A 8 A 3 Fig. 1. A TAN classifier&#39;s tree structure 2.1 The Basic TAN Classifiers A basic TAN&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "i_-lEAAAQBAJ",
+      "etag": "dWFU9Di/j9w",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/i_-lEAAAQBAJ",
+      "volumeInfo": {
+        "title": "The AI Factor",
+        "subtitle": "How to Apply Artificial Intelligence and Use Big Data to Grow Your Business Exponentially",
+        "authors": [
+          "Asha Saxena"
+        ],
+        "publisher": "Post Hill Press",
+        "publishedDate": "2023-02-14",
+        "description": "Take heart. AI is none of those things. It’s part of our everyday lives, and it has the power to transform your business. This book will put AI, big data, the cloud, robotics, and smart devices in context. It will reveal how these technologies can dramatically multiply any businesses—including yours—by strategically using your data’s latent, transformative potential. Noted business leader, data consultant, and Columbia professor Asha Saxena has distilled her twenty-seven years of experience teaching Fortune 500 leaders in this powerful and insightful book. In The AI Factor, business leaders will learn how to understand the data they already have and how to use it innovatively to grow their businesses using Saxena’s unique methodology.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781637584583"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "163758458X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 180,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=i_-lEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=i_-lEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=i_-lEAAAQBAJ&pg=PT13&dq=AI&hl=&cd=14&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=i_-lEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=i_-lEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 50.68,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 50.68,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=i_-lEAAAQBAJ&rdid=book-i_-lEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 50680000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 50680000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/The_AI_Factor-sample-epub.acsm?id=i_-lEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/The_AI_Factor-sample-pdf.acsm?id=i_-lEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=i_-lEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "<b>AI</b> is using all that profile data to select a compatible prospect. Modern healthcare is increasingly driven by <b>AI</b>, which examines data patterns from often fragmented sources to provide faster, clearer information to providers and&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Eax_EAAAQBAJ",
+      "etag": "rGC2WY3N9l0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Eax_EAAAQBAJ",
+      "volumeInfo": {
+        "title": "Wanted: Human-AI Translators",
+        "subtitle": "Artificial Intelligence Demystified",
+        "authors": [
+          "Geertrui Mieke De Ketelaere"
+        ],
+        "publisher": "Pelckmans",
+        "publishedDate": "2021-05-01",
+        "description": "Anyone who thinks artificial intelligence (AI) doesn’t really concern us yet is wrong. AI is no longer a matter for futuristic science fiction films or hip technology fairs. It is now everywhere in your life. That personalised advertising folder from the supermarket with offers “especially for you”? AI. The songs suggested for you on Spotify? AI. The self-regulating traffic lights on the corner of your street? AI. It is undeniable that AI is entering our lives at a dizzying speed. It is now part of our everyday world, and also penetrating business sectors everywhere. This raises many questions. What can AI do? What can it not do? To what extent is AI really intelligent and how far does it add value to our lives? AI expert Geertrui Mieke De Ketelaere has been closely involved in the developments in this fascinating world for many years. In this book, she explains the basic concepts of artificial intelligence in an accessible and transparent way. She discusses the many opportunities that AI offers, but does not neglect the risks. De Ketelaere takes you beyond the hype, allowing you to participate in this fascinating debate in an informed manner. One truth is clear: AI is already important, and it will be crucial for our future.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789464013269"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9464013265"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 216,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "maturityRating": "MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Eax_EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Eax_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=Eax_EAAAQBAJ&pg=PA118&dq=AI&hl=&cd=15&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=Eax_EAAAQBAJ&dq=AI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Wanted_Human_AI_Translators.html?hl=&id=Eax_EAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Eax_EAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Google, and its umbrella group, Alphabet, includes <b>AI</b> in just about everything it does. In 2016, users saw that Google Translate suddenly became much better. This was because of a move within Google to orient the company towards <b>AI</b>.76&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "g-NXEAAAQBAJ",
+      "etag": "EjCDXY6OWQ0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/g-NXEAAAQBAJ",
+      "volumeInfo": {
+        "title": "AI for the Sustainable Development Goals",
+        "authors": [
+          "Henrik Skaug Sætra"
+        ],
+        "publisher": "CRC Press",
+        "publishedDate": "2022-02-24",
+        "description": "What is artificial intelligence? What are the Sustainable Development Goals (SDGs)? How does AI affect the SDGs? Artificial Intelligence has a real impact on our lives and on our environment, and the Sustainable Development Goals enable us to evaluate these impacts in a systematic manner. This book shows that doing so requires us to understand the context of AI – the infrastructure it is built on, who develops it, who owns it, who has access to it, who uses it, and what it is used for – rather than relying on an isolationist theory of technology. By doing so, we can analyze not only the direct effects of AI on sustainability, but also the indirect – or second-order – effects. AI for the Sustainable Development Goals shows how AI potentially affects all SDGs – both positively and negatively.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781000542837"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1000542831"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 92,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=g-NXEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=g-NXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=g-NXEAAAQBAJ&pg=PT17&dq=AI&hl=&cd=16&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=g-NXEAAAQBAJ&dq=AI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/AI_for_the_Sustainable_Development_Goals.html?hl=&id=g-NXEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/AI_for_the_Sustainable_Development_Goals-sample-epub.acsm?id=g-NXEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/AI_for_the_Sustainable_Development_Goals-sample-pdf.acsm?id=g-NXEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=g-NXEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "<b>ARTIFICIAL INTELLIGENCE</b> The next concept of importance for getting off the ground with this book is <b>AI</b>. The book is, after all, named after the technology which is found and referred to just about everywhere in modern society."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "pXq_EAAAQBAJ",
+      "etag": "lbUXIRIQVX8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/pXq_EAAAQBAJ",
+      "volumeInfo": {
+        "title": "Work and AI 2030",
+        "subtitle": "Challenges and Strategies for Tomorrow's Work",
+        "authors": [
+          "Inka Knappertsbusch",
+          "Kai Gondlach"
+        ],
+        "publisher": "Springer Nature",
+        "publishedDate": "2023-06-18",
+        "description": "In ten years, we will take working with artificial intelligence (AI) more for granted than using cell phones today. 78 recognized experts from practice and research provide deep insights and outlooks regarding the influence of AI on everyday working life in 2030, explaining with practical tips how you can prepare for this development. The 41 concise articles cover a broad spectrum in the area examined in each case. Thanks to a standardized structure, they include a summary of the status quo, concrete examples, future expectations, an overview of challenges and possible solutions, and practical tips. The volume begins with societal and ethical issues before discussing legal considerations for employers and HR professionals, as well as the administration of justice. The other chapters examine the impact of AI on the world of work in 2030 in the sectors of business, industry, mobility and logistics, medicine and pharmaceuticals, and (further) education.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783658402327"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3658402326"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 369,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=pXq_EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=pXq_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=pXq_EAAAQBAJ&pg=PA32&dq=AI&hl=&cd=17&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=pXq_EAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=pXq_EAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 556.82,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 556.82,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=pXq_EAAAQBAJ&rdid=book-pXq_EAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 556820000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 556820000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Work_and_AI_2030-sample-epub.acsm?id=pXq_EAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Work_and_AI_2030-sample-pdf.acsm?id=pXq_EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=pXq_EAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "4 Outlook on Al , Innovations and Start - ups in 2030 <b>AI</b> as a general concept is just beginning to tap into its potentials . Although immense breakthroughs have been achieved in the field of <b>AI</b> in recent years , the research need for&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "oqu1EAAAQBAJ",
+      "etag": "GM3qFDIxZ20",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/oqu1EAAAQBAJ",
+      "volumeInfo": {
+        "title": "AI in the Financial Markets",
+        "subtitle": "New Algorithms and Solutions",
+        "authors": [
+          "Federico Cecconi"
+        ],
+        "publisher": "Springer Nature",
+        "publishedDate": "2023-03-24",
+        "description": "This book is divided into two parts, the first of which describes AI as we know it today, in particular the Fintech-related applications. In turn, the second part explores AI models in financial markets: both regarding applications that are already available (e.g. the blockchain supply chain, learning through big data, understanding natural language, or the valuation of complex bonds) and more futuristic solutions (e.g. models based on artificial agents that interact by buying and selling stocks within simulated worlds). The effects of the COVID-19 pandemic are starting to show their financial effects: more companies in a liquidity crisis; more unstable debt positions; and more loans from international institutions for states and large companies. At the same time, we are witnessing a growth of AI technologies in all fields, from the production of goods and services, to the management of socio-economic infrastructures: in medicine, communications, education, and security. The question then becomes: could we imagine integrating AI technologies into the financial markets, in order to improve their performance? And not just limited to using AI to improve performance in high-frequency trading or in the study of trends. Could we imagine AI technologies that make financial markets safer, more stable, and more comprehensible? The book explores these questions, pursuing an approach closely linked to real-world applications. The book is intended for three main categories of readers: (1) management-level employees of companies operating in the financial markets, banks, insurance operators, portfolio managers, brokers, risk assessors, investment managers, and debt managers; (2) policymakers and regulators for financial markets, from government technicians to politicians; and (3) readers curious about technology, both for professional and private purposes, as well as those involved in innovation and research in the private and public spheres.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783031265181"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3031265181"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 140,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=oqu1EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=oqu1EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=oqu1EAAAQBAJ&pg=PA35&dq=AI&hl=&cd=18&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=oqu1EAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=oqu1EAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 835.25,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 835.25,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=oqu1EAAAQBAJ&rdid=book-oqu1EAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 835250000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 835250000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/AI_in_the_Financial_Markets-sample-epub.acsm?id=oqu1EAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/AI_in_the_Financial_Markets-sample-pdf.acsm?id=oqu1EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=oqu1EAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "be in the loop when designing and improving the <b>AI</b> systems modelling. In the field of HAII several frameworks for evaluating the application, interaction and the consequences of the exploitation of <b>AI</b>-based systems in heterogeneous&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7hHSBwAAQBAJ",
+      "etag": "TGm6O6xAMMM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7hHSBwAAQBAJ",
+      "volumeInfo": {
+        "title": "AI and Cognitive Science ’90",
+        "subtitle": "University of Ulster at Jordanstown 20–21 September 1990",
+        "authors": [
+          "Michael F. McTear",
+          "Norman Creaney"
+        ],
+        "publisher": "Springer Science & Business Media",
+        "publishedDate": "2013-03-14",
+        "description": "This book contains the edited versions of papers presented at the 3rd Irish Conference on Artificial Intelligence and Cognitive Science, which was held at the University of Ulster at Jordanstown, Northern Ireland on 20-21 September 1990. The main aims of this annual conference are to promote AI research in Ireland, to provide a forum for the exchange of ideas amongst the different disciplines concerned with the study of cognition, and to provide an opportunity for industry to see what research is being carried out in Ireland and how they might benefit from the results of this research. Although most of the partiCipants at the conference came from universities and companies within Ireland, a positive feature of the conference was the extent of interest shown outside of Ireland, resulting in partiCipants from USA, Canada, Austria, and England. The keynote speakers were Professor David Chin, University of Hawaii, and Professor Derek Partridge, University of Exeter, and the topics included machine learning, AI tools and methods, expert systems, speech, vision, natural language, reasoning with uncertain information, and explanation. The sponsors of the conference were Digital Equipment Co (Galway) and the Industrial Development Board for Northern Ireland.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781447135425"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1447135423"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 392,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7hHSBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7hHSBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=7hHSBwAAQBAJ&pg=PA26&dq=AI&hl=&cd=19&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=7hHSBwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=7hHSBwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 278.38,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 278.38,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=7hHSBwAAQBAJ&rdid=book-7hHSBwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 278380000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 278380000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/AI_and_Cognitive_Science_90-sample-pdf.acsm?id=7hHSBwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7hHSBwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Problem description and hypotheses testing in <b>Artificial Intelligence</b>&quot; Paul Mc Kevitt and Derek Partridge” ABSTRACT There are two central problems concerning the methodology and foundations of <b>Artificial Intelligence</b> (<b>AI</b>)."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "SJfnDwAAQBAJ",
+      "etag": "rjzqeyZYm7U",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/SJfnDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Analytical Skills for AI and Data Science",
+        "subtitle": "Building Skills for an AI-Driven Enterprise",
+        "authors": [
+          "Daniel Vaughan"
+        ],
+        "publisher": "O'Reilly Media",
+        "publishedDate": "2020-05-21",
+        "description": "While several market-leading companies have successfully transformed their business models by following data- and AI-driven paths, the vast majority have yet to reap the benefits. How can your business and analytics units gain a competitive advantage by capturing the full potential of this predictive revolution? This practical guide presents a battle-tested end-to-end method to help you translate business decisions into tractable prescriptive solutions using data and AI as fundamental inputs. Author Daniel Vaughan shows data scientists, analytics practitioners, and others interested in using AI to transform their businesses not only how to ask the right questions but also how to generate value using modern AI technologies and decision-making principles. You’ll explore several use cases common to many enterprises, complete with examples you can apply when working to solve your own issues. Break business decisions into stages that can be tackled using different skills from the analytical toolbox Identify and embrace uncertainty in decision making and protect against common human biases Customize optimal decisions to different customers using predictive and prescriptive methods and technologies Ask business questions that create high value through AI- and data-driven technologies",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781492060918"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1492060917"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 244,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=SJfnDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=SJfnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=SJfnDwAAQBAJ&pg=PA10&dq=AI&hl=&cd=20&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=SJfnDwAAQBAJ&dq=AI&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Analytical_Skills_for_AI_and_Data_Scienc.html?hl=&id=SJfnDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=SJfnDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Most companies haven&#39;t been able to create value through data or <b>AI</b> in a sustaina‐ble and systematic way: nonetheless, many have already embarked on their own efforts just to reach a wall of disappointment. • Today&#39;s <b>AI</b> is about&nbsp;..."
+      }
+    }
+  ]
+}
