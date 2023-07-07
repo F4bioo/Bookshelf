@@ -28,7 +28,10 @@ private const val FEEDBACK_DETAILS_TAG = "FEEDBACK_DETAILS_TAG"
 private const val BUY_QUERY = "&sitesec=buy"
 
 fun FragmentActivity.showFeedbackError(
-    shouldShow: Boolean, message: String, primaryAction: () -> Unit, dismissAction: () -> Unit
+    shouldShow: Boolean,
+    message: String,
+    primaryAction: () -> Unit,
+    dismissAction: () -> Unit
 ) {
     dsFeedbackModal {
         titleRes = DS.string.common_error_title
@@ -87,8 +90,11 @@ fun AppCompatActivity.showErrorBuyBookAction() {
     Toast.makeText(this, getString(R.string.error_buy_book), Toast.LENGTH_LONG).show()
 }
 
-fun FragmentActivity.createChip(chipType: ChipType, primaryAction: (query: String) -> Unit): Chip =
-    Chip(ContextThemeWrapper(this, AS.style.Widget_MaterialComponents_Chip_Action)).apply {
+fun FragmentActivity.createChip(
+    chipType: ChipType,
+    primaryAction: (query: String) -> Unit
+): Chip = Chip(ContextThemeWrapper(this, AS.style.Widget_MaterialComponents_Chip_Action))
+    .apply {
         layoutParams = LayoutParams(WRAP_CONTENT, WRAP_CONTENT)
         setOnClickListener { primaryAction(chipType.name) }
         id = View.generateViewId()
