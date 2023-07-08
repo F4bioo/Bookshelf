@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ds_primary">#00ACC1</color>
+    <color name="ds_primary_dark">@color/ds_primary</color>
+    <color name="ds_accent">#6200EE</color>
+    <color name="ds_ripple">#000000</color>
+
+    <color name="ds_transparent">#00000000</color>
+    <color name="ds_on_primary">#000000</color>
+    <color name="ds_secondary">#03DAC6</color>
+    <color name="ds_secondary_variant">#3700B3</color>
+    <color name="ds_on_secondary">#00ACC1</color>
+
+    <color name="ds_white">#FFFFFF</color>
+    <color name="ds_bg_ds_feedback_modal">#FFFFFFFF</color>
+    <color name="ds_highlight_medium">#1BFF9800</color>
+    <color name="ds_gray_medium">#696969</color>
+    <color name="ds_gray_light">#AAAAAA</color>
+    <color name="ds_gray_divider">#E4E4E4</color>
+    <color name="ds_green">#4CAF50</color>
+    <color name="ds_red">#E5281A</color>
+    <color name="ds_charcoal">#E4E4E4</color>
+    <color name="ds_cyan">#00ACC1</color>
+
+</resources>

@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">Bookshelf</string>
+    <string name="search_book">Search books</string>
+    <string name="favorites">Favorites</string>
+    <string name="favorite">Favorite</string>
+    <string name="code">Code</string>
+    <string name="ai">AI</string>
+    <string name="business">Business</string>
+    <string name="blockchain">Blockchain</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+    <string name="technology">Technology</string>
+    <string name="biography">Biography</string>
+    <string name="history">History</string>
+    <string name="mystery">Mystery</string>
+    <string name="romance">Romance</string>
+    <string name="horror">Horror</string>
+    <string name="adventure">Adventure</string>
+    <string name="description">Description</string>
+    <string name="publisher">Publisher</string>
+    <string name="published_date">Published date</string>
+    <string name="pages">Pages</string>
+    <string name="search_books_or_pick">Search a book title or pick a topic above to discover books.</string>
+    <string name="no_cover">No cover image available</string>
+    <string name="empty_favorites">Your favorites list is currently empty. Start adding books you love!</string>
+    <string name="explore_books">Explore books</string>
+    <string name="publisher_placeholder"><![CDATA[Publisher: <b>%s<b>]]></string>
+    <string name="published_placeholder"><![CDATA[Published year: <b>%s<b>]]></string>
+    <string name="buy">Buy</string>
+    <string name="error_buy_book">Sorry, book purchase is unavailable.</string>
 </resources>
